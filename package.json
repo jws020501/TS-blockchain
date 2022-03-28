@@ -1,0 +1,14 @@
+{
+  "name": "nico",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js\" ",
+    "prestart": "tsc"
+  },
+  "dependencies": {
+    "git": "^0.1.5",
+    "tsc-watch": "^4.6.2"
+  }
+}
